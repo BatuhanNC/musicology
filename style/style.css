@@ -10,7 +10,7 @@ header{
 	position: fixed;
 	width: 100%;
 	height: 102px;
-	background-color: red;
+	background-color: #303030;
 }
 header .header{
 	width: 100%;
@@ -40,7 +40,7 @@ header .menu li{
 	background-size: cover;
 }
 .sldr{
-	width: 100%px;
+	width: 100%;
 	height: 100%;
 	margin: auto;
 	display: flex;
