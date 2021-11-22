@@ -40,7 +40,7 @@ header .menu li{
 	background-size: cover;
 }
 .sldr{
-	width: 1324px;
+	width: 100%px;
 	height: 100%;
 	margin: auto;
 	display: flex;
