@@ -13,7 +13,7 @@ header{
 	background-color: #303030;
 }
 header .header{
-	width: 100%;
+	width: 1324px;
 	display: flex;
 	height: 100%;
 	margin: auto;
@@ -40,11 +40,12 @@ header .menu li{
 	background-size: cover;
 }
 .sldr{
-	width: 100%;
+	width: 1324px;
 	height: 100%;
 	margin: auto;
 	display: flex;
 	padding-bottom: 85px;
+	padding-left: 81px;
 	box-sizing: border-box;
 	align-items: flex-end;
 }
@@ -241,13 +242,106 @@ header .menu li{
 	font-family: 'Montserrat', sans-serif;
 }
 .herbert-simone{
-    background: url(../image/herberd-simone.jpg);
+    background: url(../image/herber-simone.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	padding: 345px 0 341px 0; 
 	text-align: center;
 }
+
 .subscribe{
 	background:#e8631c;
 	overflow: hidden;
+
+}
+.subscribe-content{
+	text-align: center;
+	background:#e8631c;
+	background: url(../image/subscribe-design-1.png);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.sb-card{
+	width: 100%;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 58px;
+}
+.subscribe-email{
+	margin-top: 55px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 160px;
+}
+.subscribe-email input{
+    color: rgba(0, 0,16, .5);
+	font-size: 25px;
+	padding: 20px 0 20px 20px;
+	border: none;
+}
+.subscribe-email button{
+	background: #303030;
+	font-size: 25px;
+	padding: 18px 50px;
+	border :none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+footer{
+	background: #303030;
+	color: #fff;
+	overflow: hidden;
+	padding-top: 120px;
+	padding-bottom: 90px;
+	padding-left: 77px;
+}
+.footer-musicology{
+	width: calc(40% - 77px);
+	overflow: hidden;
+}
+.footer-musicology .name , .footer-menu .name{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.footer-musicology .footer-text{
+	font-size: 20px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer-menu{
+	width: calc(60% - 120px);
+	float: right;
+	padding-left: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-menu ul{
+	padding: 0;
+	margin: 0;
+
+}
+.footer-menu ul li{
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.footer-menu .card{
+	width: 33%;
+}
+.social-media ul{
+	display: flex;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 0;
+}
+.social-media ul li{
+	list-style: none;
+	margin-top: 40px;
+	margin-right: 15px;
 }
